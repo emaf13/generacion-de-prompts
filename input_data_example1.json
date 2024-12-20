@@ -1,0 +1,50 @@
+{
+    "report_week": "2024-11-25 to 2024-12-01",
+    "services": [
+        {
+            "service_name": "Servidor Web",
+            "availability": 99.87,
+            "downtime": {
+                "total_minutes": 15,
+                "events": [
+                    {
+                        "date": "2024-11-27",
+                        "duration_minutes": 15,
+                        "cause": "Fallo de red"
+                    }
+                ]
+            },
+            "sla_target": 99.90,
+            "alerts": 3,
+            "observations": "Cumplió con el SLA a pesar de una pequeña interrupción."
+        },
+        {
+            "service_name": "Servidor Backend",
+            "availability": 100,
+            "downtime": {
+                "total_minutes": 0,
+                "events": []
+            },
+            "sla_target": 99.90,
+            "alerts": 0,
+            "observations": ""
+        },
+        {
+            "service_name": "Base de Datos",
+            "availability": 99.95,
+            "downtime": {
+                "total_minutes": 5,
+                "events": [
+                    {
+                        "date": "2024-11-28",
+                        "duration_minutes": 5,
+                        "cause": "Mantenimiento"
+                    }
+                ]
+            },
+            "sla_target": 99.95,
+            "alerts": 1,
+            "observations": "Cumplió con el SLA con interrupciones mínimas."
+        }
+    ]
+}

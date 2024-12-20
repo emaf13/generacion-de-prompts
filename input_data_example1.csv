@@ -1,0 +1,4 @@
+service_name,availability,downtime/total_minutes,downtime/events/0/date,downtime/events/0/duration_minutes,downtime/events/0/cause,sla_target,alerts,observations
+Servidor Web,99.87,15,2024-11-27,15,Fallo de red,99.9,3,Cumplió con el SLA a pesar de una pequeña interrupción.
+Servidor Backend,100,0,,,,99.9,0,
+Base de Datos,99.95,5,2024-11-28,5,Mantenimiento,99.95,1,Cumplió con el SLA con interrupciones mínimas.
